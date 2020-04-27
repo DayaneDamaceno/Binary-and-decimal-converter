@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Sans:400,500,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font: 400 14px 'DM Sans', sans-serif;
+    background: #f0f0f5;
+    -webkit-font-smoothing: antialiased;
+}
+
+input, button{
+    font: 400 16px 'DM Sans', sans-serif;
+}
+
+button{
+    cursor: pointer;
+}
+.container{
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%);
+}
+.container h1{
+    margin-bottom: 30px;
+    color: #E02041;
+}
+.contents{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 70%;
+    margin-top: 60px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.content > p{
+    text-align: left;
+    margin-left: 35px;
+    font-weight: 500;
+}
+.content form{
+    background-color: #E02041;
+    width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+    margin: 15px;
+}
+.content form input{
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    padding-left: 20px;
+    height: 35px;
+    margin-bottom: 15px;
+}
+.content form button{
+    width: 140px;
+    height: 40px;
+    background-color: #B11933;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+.content form p{
+    color: white;
+}
+.txt{
+    width: 250px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+.err{
+    color: #E02041;
+    font-size: 16px;
+}
